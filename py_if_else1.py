@@ -7,7 +7,7 @@
 # If n is even and greater than , print Not Weird
 # Input Format
 #
-# A single line containing a positive integer, .
+# A single line containing a positive integer, n.
 #
 # Constraints
 #
@@ -15,13 +15,13 @@
 #
 # Print Weird if the number is weird. Otherwise, print Not Weird.
 #
-# Sample Input 0
+# Sample Input
 #
 # 3
-# Sample Output 0
+# Sample Output
 #
 # Weird
-# Explanation 0
+# Explanation
 #
 #
 #  is odd and odd numbers are weird, so print Weird.
@@ -35,7 +35,9 @@
 # Explanation 1
 #
 #
-#  and  is even, so it is not weird.
+# is greater than 20 and  is even, so it is not weird.
+
+# Solution
 
 if __name__ == '__main__':
     n = int(input().strip())
