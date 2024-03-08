@@ -27,7 +27,6 @@
 def count_substring(string, sub_string):
     count = 0
     for n in range(len(string)-len(sub_string)+1):
-        # print(string[n:len(sub_string)+n])
         if (string[n:len(sub_string)+n]) == sub_string:
             count += 1
         else:
